@@ -1,0 +1,134 @@
+.page-four {
+    margin-top: 150px;
+    height: 709px;
+}
+
+.page-four__position {
+    position: relative;
+    overflow-x: hidden;
+}
+
+@media (max-width: 1150px) {
+    .page-four__position {
+        position: absolute;
+    }
+}
+
+.page-four h2 {
+    margin: 0 0 88px 90px;
+    padding-top: 109px;
+    color: #fff;
+}
+
+.page-four__img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    margin-right: 30px;
+}
+
+.page-four__wrapper {
+    background: #9C69E2;
+    height: 709px;
+    border-radius: 50px;
+}
+
+.page-four__card-one {
+    position: absolute;
+    display: inline-flex;
+    background: #FFFFFF;
+    box-shadow: 0 20px 0 rgba(103, 72, 148, 0.33);
+    border-radius: 20px;
+    width: 505px;
+    height: 270px;
+    margin: 0 20px 0 90px;
+    padding: 60px 70px 0 70px;
+}
+
+.page-four__card-two {
+    position: absolute;
+    display: inline-flex;
+    background: #FFFFFF;
+    box-shadow: 0 20px 0 rgba(131, 92, 189, 0.33);
+    border: 1px solid #9C69E2;
+    border-radius: 20px;
+    width: 320px;
+    height: 270px;
+    margin: 0 20px 0 755px;
+    padding: 60px 40px 0 40px;
+}
+
+.page-four__card-three {
+    position: absolute;
+    display: inline-flex;
+    background: #FFFFFF;
+    box-shadow: 0 20px 0 rgba(131, 92, 189, 0.33);
+    border: 1px solid #9C69E2;
+    border-radius: 20px;
+    width: 320px;
+    height: 270px;
+    margin: 0 20px 0 1175px;
+    padding: 60px 40px 0 40px;
+}
+
+.page-four__gradient {
+    background: linear-gradient(270deg, #FFFFFF 9.75%, rgba(255, 255, 255, 0) 100%);
+}
+
+.page-four__nav {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 330px 0 0 90px;
+    padding: 60px 0 0 0;
+}
+
+@media (max-width: 767px) {
+    .page-four__card-two {
+        display: none;
+    }
+
+    .page-four__card-three {
+        display: none;
+    }
+
+    .page-four {
+        height: 1100px;
+    }
+
+    .page-four__position {
+        position: relative;
+        overflow-x: visible;
+    }
+
+    .page-four__wrapper {
+        height: 1100px;
+    }
+
+    .page-four__card-one {
+        position: relative;
+        width: 80%;
+        height: 600px;
+        padding: 30px 30px 0 40px;
+    }
+
+    .page-four__img {
+        width: 180px;
+        height: 180px;
+        object-fit: contain;
+        margin-right: 30px;
+    }
+
+    .page-four__card-one h4{
+        margin-top: 30px;
+    }
+
+    .page-four__card-one p {
+        font-size: 40px;
+    }
+
+    .page-four__nav {
+        margin: 30px 0 0 90px;
+    }
+}

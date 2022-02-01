@@ -1,0 +1,130 @@
+.footer {
+    margin: 0 0;
+    padding-top: 165px;
+    font-style: normal;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+}
+
+.footer__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer__logo {
+    width: 212px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.footer__logo p {
+    font-weight: 700;
+}
+
+.footer__logo img {
+    height: 35px;
+    object-fit: contain;
+}
+
+.footer__text1 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.footer__text2 {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 36px;
+}
+
+.footer__text3 {
+    font-weight: normal;
+    font-size: 12px;
+    margin-bottom: 65px;
+}
+
+.footer__social-media {
+    grid-area: auto / 4;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer__social-media__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #212353;
+    opacity: 0.1;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+
+.footer__btn-container {
+    margin-top: 29px;
+    display: inline-flex;
+}
+
+@media (max-width: 767px) {
+    .footer__wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .footer__contacts {
+        margin-top: 8%;
+        text-align: center;
+        padding-left: 5%;
+    }
+
+    .footer__logo {
+        width: 600px;
+        margin-bottom: 20px;
+    }
+
+    .footer__logo p {
+        font-size: 60px;
+    }
+
+    .footer__logo img {
+        height: 70px;
+        object-fit: contain;
+    }
+
+    .footer__text1 {
+        margin: 0;
+        font-size: 40px;
+    }
+
+    .footer__text2 {
+        font-size: 40px;
+    }
+
+    .footer__text3 {
+        font-size: 30px;
+    }
+
+    .footer__social-media {
+        padding: 0 15%;
+    }
+
+    .footer__social-media__btn {
+        width: 180px;
+        height: 180px;
+        margin: 0 50px;
+    }
+
+    .footer__social-media__btn img {
+        width: 90px;
+        height: 90px;
+        object-fit: contain;
+    }
+
+    .footer__social-media p {
+        display: none;
+    }
+}

@@ -1,0 +1,108 @@
+.page-three {
+    margin-top: 150px;
+    width: 100%;
+}
+
+.page-three__title {
+    display: block;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.page-three__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 4% 4%;
+}
+
+.page-three__wrapper p {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.page-three__box {
+    display: inline-flex;
+    padding: 50px 20px 30px 0;
+    background-size: auto 100%;
+}
+
+.page-three__box1 {
+    background: url(../img/image-3-01.png) right no-repeat;
+}
+
+.page-three__box2 {
+    background: url(../img/image-3-02.png) right no-repeat;
+}
+
+.page-three__box3 {
+    background: url(../img/image-3-03.png) right no-repeat;
+}
+
+.page-three__box4 {
+    background: url(../img/image-3-04.png) right no-repeat;
+}
+
+.page-three__text {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 308px;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.page-three__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.page-three__btn {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 127px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.005em;
+}
+
+@media (max-width: 767px) {
+    .page-three__wrapper {
+        display: inline-flex;
+        flex-direction: column;
+        padding: 0 2%;
+    }
+
+    .page-three__wrapper p {
+        font-size: 40px;
+    }
+
+    .page-three__box2 {
+        flex-direction: row-reverse;
+        background: url(../img/image-3-02m.png) left no-repeat;
+    }
+
+    .page-three__box4 {
+        flex-direction: row-reverse;
+        background: url(../img/image-3-04m.png) left no-repeat;
+    }
+
+    .page-three__box {
+        height: 850px;
+        background-size: auto 80%;
+        padding: 8% 5% 0 5%;
+    }
+
+    .page-three__btn {
+        font-size: 40px;
+        width: 300px;
+    }
+
+    .page-three__btn img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+
+    }
+}
